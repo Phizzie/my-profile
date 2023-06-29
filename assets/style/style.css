@@ -14,7 +14,7 @@ h3, h1, h4, h5, p {
     display: grid; 
     text-align: center;
 }
-.image{
+.icon{
     justify-content: center;
     align-items: center;
     display: grid;
@@ -70,6 +70,9 @@ p{
 }
 .contact{
     margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
 }
 .message{
     height: 80px;
@@ -78,4 +81,18 @@ p{
 }
 form button{
     margin-left: 70px;
+}
+@media screen and (max-width:1200px) {
+    
+    .list {
+        display: inline-block;   
+        height: 40px;
+        width: 10%;
+    }
+    .skills{
+        display: inline-block;
+        height: 60px;
+        width: 30%;
+        padding-left: 120px;
+    }
 }
